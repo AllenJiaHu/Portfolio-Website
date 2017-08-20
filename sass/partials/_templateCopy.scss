@@ -1,0 +1,63 @@
+/* Header */
+
+	.headerPanel {
+	    background-color: $gray;
+	    width: 100%;
+	    position: absolute;
+	}
+
+	.description {
+	    margin-top: 60px;
+	    background-color: $gray;
+	    height: 100%;
+	    margin-bottom: 0px;
+	}
+
+/* Close Navigation */
+
+	.closeBackground {
+		float: right;
+		text-align: center;
+		width: 29px;
+    	height: 29px;
+    	border-radius: 100%;
+    	background-color: $black;
+	}
+
+	i {
+		color: $white;
+		font-size: 17px !important;
+	}
+
+/* Images */
+
+	.coverImage {
+	    position: relative;
+	    z-index: -1;    
+	}
+
+	h3, .workImage {
+	  margin-top: 40px !important;
+	}
+
+/* Project Navigation */
+
+	.projectNavigation {
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	    display: inline;
+	    text-align: left;
+	    	&:last-child {
+	    		text-align: right;
+	    	}
+	}
+
+/* Go-To-Top Navigation */
+	
+	.goTop {
+    	padding: 9px;
+    	position: fixed;
+    	top: 110%;
+    	right: 2%;
+		background: $black;
+	}
